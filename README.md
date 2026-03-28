@@ -164,3 +164,15 @@ terraform destroy
 ```bash
 yes
 ```
+
+## 11 email และ password สำหรับ test accounts 
+
+* ใช้เพียงมหาวิทยาลัยนเรศวร เท่านั้น
+
+| Role   | Email                | Password  |
+|----------------------|-----------|
+| Staff                | rattana@nu.ac.th     | rattana_jaidee  |
+| Customer             | aonpimolw66@nu.ac.th | nu123456        |
+| warehouse manager    | sumet@nu.ac.th       | sumet_jaidee    |
+| rector               | somchai@nu.ac.th     | hashed_pw004    |
+| executive            | Winai@nu.ac.th       | winai_jaidee    |
