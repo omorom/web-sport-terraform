@@ -165,14 +165,12 @@ terraform destroy
 yes
 ```
 
-## 11 email และ password สำหรับ test accounts 
+## 11 Test Accounts
+Role	Email	Password
+Staff	rattana@nu.ac.th	rattana_jaidee
+Customer	aonpimolw66@nu.ac.th	nu123456
+Warehouse Manager	sumet@nu.ac.th	sumet_jaidee
+Rector	somchai@nu.ac.th	hashed_pw004
+Executive	winai@nu.ac.th	winai_jaidee
 
-* ใช้เพียงมหาวิทยาลัยนเรศวร เท่านั้น
-
-| Role   | Email                | Password  |
-|----------------------|-----------|
-| Staff                | rattana@nu.ac.th     | rattana_jaidee  |
-| Customer             | aonpimolw66@nu.ac.th | nu123456        |
-| warehouse manager    | sumet@nu.ac.th       | sumet_jaidee    |
-| rector               | somchai@nu.ac.th     | hashed_pw004    |
-| executive            | Winai@nu.ac.th       | winai_jaidee    |
+* ใช้เฉพาะมหาวิทยาลัยนเรศวรเท่านั้น
