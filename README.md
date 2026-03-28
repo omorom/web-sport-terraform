@@ -4,11 +4,11 @@
 
 ## Step by Step สำหรับอาจารย์
 
-### การติดตั้ง:
+### การติดตั้ง และตั้งค่าเครื่องมือที่จำเป็น:
 
 * Terraform CLI
 * AWS CLI
-
+* สมัคร Account AWS
 ---
 
 ## 1. สร้าง AWS Security Credentials
@@ -28,7 +28,7 @@
 
 ## 2. ตั้งค่า AWS CLI
 
-เปิด Floder เสร็จแล้ว เปิด Terminal แล้วรัน:
+เปิด Folder เสร็จแล้ว เปิด Terminal แล้วรัน คำสั่ง:
 
 ```bash
 aws configure
@@ -53,7 +53,7 @@ example-key
 ```
 
 4. ดาวน์โหลดไฟล์ `.pem`
-
+เพื่อใช้ในการเชื่อมต่อ SSH กับ EC2 Instance ในไฟล์ variables.tf ให้ใส่ชื่อ Key Pair ที่สร้างไว้ (เช่น `example-key`)
 ---
 
 ## 4. เตรียม Terraform Project
