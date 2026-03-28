@@ -74,7 +74,6 @@ output.tf
 
 ใช้กำหนดค่าต่าง ๆ เช่น:
 
-*
 * region
 * instance type
 * instance name
